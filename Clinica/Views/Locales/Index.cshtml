@@ -1,0 +1,87 @@
+﻿
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Lista de Locales</h2>
+
+<p>
+    <a class="btn btn-primary" data-toggle="modal" data-target="#Ingreso_Locales">Nuevo Consultorio</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+            <th>
+                Direccion
+            </th>
+            <th>
+                Calle
+            </th>
+            <th>
+                Consultorio
+            </th>
+
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="Cuerpo_Locales"></tbody>
+</table>
+
+<div class="modal fade" id="Ingreso_Locales" tabindex="-1" role="dialog" aria-labelledby="EtiquetaModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="EtiquetaModal">
+                    Ingreso de Locales
+                </h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <input type="hidden" name="LocalesId" id="LocalesId" />
+                    <div class="form-group">
+                        <label class="control-label">Nombre de Locales</label>
+                        <input id="Numero" name="Numero" class="form-control"
+                               type="text"  />
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label">Direccion de Locales</label>
+                        <input id="Direcion" name="Direcion" class="form-control"
+                               type="text"  />
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Calle del Locales</label>
+                        <input id="Calle" name="Calle" class="form-control"
+                               type="text" />
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Consultorio de Consultorio</label>
+                        <input id="ConsultoriosId" name="ConsultoriosId" class="form-control"
+                               type="text"  />
+
+                    </div>
+
+
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="">Cerrar</button>
+                <button id="graba" type="button" class="btn btn-primary" onclick="nuevo_Consultorio()">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>

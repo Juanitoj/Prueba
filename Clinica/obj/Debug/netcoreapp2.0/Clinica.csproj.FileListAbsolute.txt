@@ -1,0 +1,12 @@
+c:\users\electra\Source\Repos\Clinica\Clinica\bin\Debug\netcoreapp2.0\Clinica.deps.json
+c:\users\electra\Source\Repos\Clinica\Clinica\bin\Debug\netcoreapp2.0\Clinica.runtimeconfig.json
+c:\users\electra\Source\Repos\Clinica\Clinica\bin\Debug\netcoreapp2.0\Clinica.runtimeconfig.dev.json
+c:\users\electra\Source\Repos\Clinica\Clinica\bin\Debug\netcoreapp2.0\Clinica.dll
+c:\users\electra\Source\Repos\Clinica\Clinica\bin\Debug\netcoreapp2.0\Clinica.pdb
+c:\users\electra\Source\Repos\Clinica\Clinica\obj\Debug\netcoreapp2.0\Clinica.csprojResolveAssemblyReference.cache
+c:\users\electra\Source\Repos\Clinica\Clinica\obj\Debug\netcoreapp2.0\Clinica.csproj.CoreCompileInputs.cache
+c:\users\electra\Source\Repos\Clinica\Clinica\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+c:\users\electra\Source\Repos\Clinica\Clinica\obj\Debug\netcoreapp2.0\Clinica.AssemblyInfoInputs.cache
+c:\users\electra\Source\Repos\Clinica\Clinica\obj\Debug\netcoreapp2.0\Clinica.AssemblyInfo.cs
+c:\users\electra\Source\Repos\Clinica\Clinica\obj\Debug\netcoreapp2.0\Clinica.dll
+c:\users\electra\Source\Repos\Clinica\Clinica\obj\Debug\netcoreapp2.0\Clinica.pdb
